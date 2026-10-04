@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Null Example</title>
+</head>
+
+<body>
+
+  <h1>Testing null</h1>
+
+  <p class="message">This element exists.</p>
+
+  <script>
+
+    /*
+    document.querySelector()
+
+    document.querySelector() searches for an HTML element
+    that matches the given selector.
+
+    If a matching element exists,
+    it returns the HTML element.
+
+    If no matching element exists,
+    it returns null.
+    */
+
+
+    // ------------------------------------------
+    // Example 1: The element EXISTS
+    // ------------------------------------------
+
+    var element1 = document.querySelector('.message');
+
+    // Guess the output before checking the console!
+
+    console.log("element 1 = " + element1); // ?
+
+
+    // ------------------------------------------
+    // Example 2: The element DOES NOT EXIST
+    // ------------------------------------------
+
+    var element2 = document.querySelector('.myClass');
+
+    // There is no element with class="myClass"
+    // in this HTML document.
+
+    // Guess the output!
+
+    console.log("element 2 = " + element2); // ?
+
+
+  </script>
+
+</body>
+
+</html>
